@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import TermsModal from './TermsModal'
 
 export default function Home() {
+  const [showTerms, setShowTerms] = useState(false)
+
   return (
     <>
       <div className="lg:w-1/2 p-12 flex flex-col justify-center">
@@ -30,13 +33,17 @@ export default function Home() {
           <div className="mt-8 text-center text-gray-400 text-sm">
             <p>
               By continuing, you agree to our{" "}
-              <button className="text-emerald-500 hover:underline">
+              <button 
+                onClick={() => setShowTerms(true)}
+                className="text-emerald-500 hover:underline cursor-pointer"
+              >
                 Terms of Service
               </button>
             </p>
           </div>
         </div>
       </div>
+      <TermsModal isOpen={showTerms} onClose={() => setShowTerms(false)} />
     </>
   )
 }
