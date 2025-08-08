@@ -5,7 +5,7 @@ export default function LeftPanel() {
     <>
       <div className="lg:w-1/2 bg-[rgb(8,75,62)] p-12 flex flex-col justify-between">
         <div>
-          <img src="/logo.png" alt="Logo" width={160} height={60} className="mb-16" />
+          <img src="/logo.png" alt="Logo" width={160} height={60} className="mb-16 -mt-3" />
         </div>
         <div>
           <h1
