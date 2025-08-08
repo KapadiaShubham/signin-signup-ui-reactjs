@@ -18,7 +18,7 @@ export default function LoginSignUp(){
             backgroundRepeat: "no-repeat"
           }}
         >
-          <div className="w-full max-w-4xl bg-white rounded-3xl shadow-2xl overflow-hidden">
+          <div className="w-full max-w-4xl bg-white rounded-[40px] shadow-2xl overflow-hidden">
             <div className="flex flex-col lg:flex-row min-h-[600px]">
               {/* Left Panel */}
               <LeftPanel />

@@ -35,7 +35,7 @@ export default function Home() {
               By continuing, you agree to our{" "}
               <button 
                 onClick={() => setShowTerms(true)}
-                className="text-emerald-500 hover:underline cursor-pointer"
+                className="text-gray-400 underline cursor-pointer"
               >
                 Terms of Service
               </button>

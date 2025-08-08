@@ -77,7 +77,7 @@ export default function TermsModal({ isOpen, onClose }) {
           <div className="flex justify-end p-6 border-t border-gray-200">
             <button
               onClick={onClose}
-              className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2 rounded-full text-sm font-medium transition-colors duration-200"
+              className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2 rounded-full text-sm font-medium transition-colors duration-200 cursor-pointer"
             >
               I Understand
             </button>
