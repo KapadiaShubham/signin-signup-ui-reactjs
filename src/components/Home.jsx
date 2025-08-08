@@ -11,7 +11,7 @@ export default function Home() {
         <div className="max-w-sm mx-auto w-full flex flex-col justify-between min-h-full space-y-8">
           <div>
             <h2 className="text-gray-800 text-3xl font-medium mb-2 font-gilroy">
-              Welcome back
+              Get Started
             </h2>
             <p className="text-gray-600 text-xl font-gilroy">
               Choose your next step
